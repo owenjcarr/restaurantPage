@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden, .active {
+    margin: 10px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+#main {
+    text-align: center;
+}
+
+#main > p {
+    margin: auto;
+    width: 300px;
+}
