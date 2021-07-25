@@ -2,6 +2,7 @@ import aboutTab from "./aboutTab";
 import menuTab from "./menuTab";
 import contactTab from "./contactTab";
 import pageLoad from "./pageLoad";
+import "./styles.css";
 
 pageLoad();
 aboutTab();
